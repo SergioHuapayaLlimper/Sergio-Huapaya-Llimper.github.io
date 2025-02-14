@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi San Valentin</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Petemoss&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="PlayAudio()">
+    <audio id="musica1" autoplay loop>
+        <source src="audio/Marc Seguí - Tiroteo Remix ft. Rauw Alejandro y Pol Granch (Videoclip Oficial) (mp3cut.net).mp3" type="audio/mpeg">
+    </audio>
+    <div class="envelope">
+        <div class="envelope-lid"></div>
+        <div class="envelope-lid envelope-lid-secondary"></div>
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="card-cover">
+                    <div class="card-side card-side-primary">
+                        <h1 class="card-title">
+                            <span class="card-title-secondary">Feliz</span>
+                            <span class="card-title-main">Valentin<span
+                                    class="card-title-apostrophe">❤️</span></span>
+                            <span class="card-title-terciary">Da click xd</span>
+                        </h1>
+                    </div>
+                    <div class="card-side card-side-secondary"></div>
+                </div>
+                <div class="card-body">
+                    <p>Para Ari,</p>
+                    <p>Hoy es un día para celebrar el amor en todas sus formas, y no puedo dejar pasar la oportunidad de recordarte lo increíble que eres. No importa la distancia ni el tiempo, sé que nuestra amistad es de las cosas más valiosas.
+                        Eres mi cómplice, mi apoyo y mi hermana de otra vida. Gracias por cada consejo, por cada ocurrencia y por ser esa persona que siempre ilumina mis días. 🌹
+                    </p>
+                    <p>Feliz San Valentin!</p>
+                </div>
+            </div>
+        </div>
+    <div class="heart-seal"></div> </div>
+    <script  src="./script.js"></script>
+    <script>
+        function PlayAudio() {
+            document.getElementById("musica1").play();
+        }
+    </script>
+</body>
+</html>
